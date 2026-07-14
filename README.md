@@ -47,6 +47,6 @@ Do ochrony przed jednoczesnym zapisem przez wielu użytkowników wykorzystano lo
 
 ## 🛠️ Stos technologiczny
 
-* **Język programowania:** ABAP Objects (użycie konstruktorów wyrażeń, nowoczesnej składni tabel wewnętrznych oraz klasowej obsługi wyjątków).
-* **Słownik danych (DDIC):** Tabele przezroczyste, struktury płaskie, obiekty blokujące, domeny i elementy danych.
-* **Interfejs użytkownika:** Dynpro (Screen Painter), ALV Grid (technologia Control Framework), SALV.
+* **Język programowania:** ABAP Objects (użycie konstruktorów wyrażeń i klasowej obsługi wyjątków).
+* **Słownik danych (DDIC):** Tabele, struktury, obiekty blokujące, domeny i elementy danych.
+* **Interfejs użytkownika:** Dynpro (Screen Painter), ALV Grid, SALV.
