@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_SAL_BONUS_DB_MAU</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>CRUD layer</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Partner function conversion into technical code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_ACTIVE_EMPLOYEES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get eligible employees with pernr and with the assigned targ</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_EMPLOYEE_INVOICES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Retreive invocies linked to specific employee</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_SAL_TURNOVER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Retrieving and sum employee turnover for a given period</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_SAVED_BONUSES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read from the DB of bonuses that have already been approved</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_TARGET_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Retrieve the employees and their defined sales targets</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>LOCK_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Locking ZMAU_SAL_BONUS database table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_PARVW_EMPLOYEE_RESPONSIBLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Partner Function</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SAVE_CALCULATED_BONUSES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reads the sales tab and writes the data to the bonuses tab</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UNLOCK_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Unlocking ZMAU_SAL_BONUS database table</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ACTIVE_EMPLOYEES</CMPNAME>
+     <SCONAME>IV_BEGDA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Date</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ACTIVE_EMPLOYEES</CMPNAME>
+     <SCONAME>IV_ENDDA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Date</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ACTIVE_EMPLOYEES</CMPNAME>
+     <SCONAME>IV_GJAHR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Fiscal Year</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ACTIVE_EMPLOYEES</CMPNAME>
+     <SCONAME>IV_QUARTER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Specific data element for quarter of the yaer</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ACTIVE_EMPLOYEES</CMPNAME>
+     <SCONAME>RT_PERNR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Personnel Number Table</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EMPLOYEE_INVOICES</CMPNAME>
+     <SCONAME>IV_BEGDA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Date</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EMPLOYEE_INVOICES</CMPNAME>
+     <SCONAME>IV_ENDDA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Date</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EMPLOYEE_INVOICES</CMPNAME>
+     <SCONAME>IV_PERNR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Personnel Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EMPLOYEE_INVOICES</CMPNAME>
+     <SCONAME>RT_INVOCIES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table type - list of invocies linked to employee</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SAL_TURNOVER</CMPNAME>
+     <SCONAME>IV_BEGDA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Date</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SAL_TURNOVER</CMPNAME>
+     <SCONAME>IV_ENDDA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Date</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SAL_TURNOVER</CMPNAME>
+     <SCONAME>IV_GJAHR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Fiscal Year</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SAL_TURNOVER</CMPNAME>
+     <SCONAME>IV_QUARTER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Specific data element for quarter of the yaer</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TARGET_DATA</CMPNAME>
+     <SCONAME>IV_BEGDA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Date</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TARGET_DATA</CMPNAME>
+     <SCONAME>IV_ENDDA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Date</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TARGET_DATA</CMPNAME>
+     <SCONAME>IV_GJAHR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Fiscal Year</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TARGET_DATA</CMPNAME>
+     <SCONAME>IV_QUARTER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Specific data element for quarter of the yaer</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LOCK_DATA</CMPNAME>
+     <SCONAME>IT_BONUS_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of approved bonuses</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

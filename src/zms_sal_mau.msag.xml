@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZMS_SAL_MAU</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Messages class for the ALV sales monitor</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMS_SAL_MAU</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>There are no active employees with a sales target assigned.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMS_SAL_MAU</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Error occurred while displaying the monitor.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMS_SAL_MAU</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Error occured during creating report with employees invoices.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMS_SAL_MAU</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>No data to save.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMS_SAL_MAU</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>An error occurred during the saving to the database. Changes reverted.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMS_SAL_MAU</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>The data has been saved successfully.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMS_SAL_MAU</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Cannot save. The records are locked by another user.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMS_SAL_MAU</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Select exacly one emploee to edit target.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMS_SAL_MAU</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Cannot edit target for an already approved bonus.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMS_SAL_MAU</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Cannot update target value.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMS_SAL_MAU</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Target updated and bonus recalculated successfully.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMS_SAL_MAU</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Invalid number format entered.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMS_SAL_MAU</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Firstly select at least one employee.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMS_SAL_MAU</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>All selected employees (&amp;1) are already approved.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMS_SAL_MAU</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Successfully approved and locked {&amp;1} records.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMS_SAL_MAU</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Successfully saved {&amp;1} records as a draft.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMS_SAL_MAU</ARBGB>
+     <MSGNR>016</MSGNR>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
